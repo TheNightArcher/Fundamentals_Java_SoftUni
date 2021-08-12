@@ -26,7 +26,7 @@ public class FancyBarcodes_02 {
                         numbersHolder.append(digit);
                     }
                 }
-                if (numbersHolder.toString().equals("")){
+                if (numbersHolder.toString().isEmpty()){
                     System.out.println("Product group: 00");
                 }else {
                     System.out.printf("Product group: %s%n",numbersHolder);
